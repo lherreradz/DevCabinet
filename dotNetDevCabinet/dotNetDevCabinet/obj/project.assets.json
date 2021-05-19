@@ -8,35 +8,27 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MSI\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\alherrera\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\Documents\\GitHub\\dotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
+      "projectUniqueName": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
       "projectName": "TestDotNet5",
-      "projectPath": "C:\\Users\\MSI\\Documents\\GitHub\\dotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
-      "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\Documents\\GitHub\\dotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\obj\\",
+      "projectPath": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
+      "packagesPath": "C:\\Users\\alherrera\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\alherrera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Users\\MSI\\Source\\Repos\\Crushbank-Ingestion\\trunk\\Crushbank.Ingestion.Watson\\bin\\Debug": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/CrushBank/9e7d6b9d-a4e4-47f2-bf38-e789bcd35883/_packaging/crushbank.nuget.packages/nuget/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -68,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
