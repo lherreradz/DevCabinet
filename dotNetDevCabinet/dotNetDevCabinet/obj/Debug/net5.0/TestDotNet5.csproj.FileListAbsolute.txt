@@ -37,7 +37,6 @@ C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDev
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\TestDotNet5.dll
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\ref\TestDotNet5.dll
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\TestDotNet5.pdb
-C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.csprojAssemblyReference.cache
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.AssemblyInfoInputs.cache
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.AssemblyInfo.cs
@@ -46,3 +45,4 @@ C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDev
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\ref\TestDotNet5.dll
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.pdb
 C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.genruntimeconfig.cache
+C:\Users\alherrera\OneDrive - ENDAVA\Documents\GitHub\DotNetDevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.csprojAssemblyReference.cache

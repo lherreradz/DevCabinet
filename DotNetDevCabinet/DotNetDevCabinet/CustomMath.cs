@@ -10,7 +10,19 @@ namespace TestDotNet5
     {
         public static bool IsPairNumber(int number)
         {
-            return (number / 2) * 2 == number;
+            return number % 2 == 0;
+        }
+
+        public static int StringCalculator(string stringNumbers)
+        {
+            var numbers = stringNumbers.Split(",");
+            int sum = 0;
+            foreach(var number in numbers)
+            {
+                sum += Convert.ToInt32(number);
+            }
+
+            return sum;
         }
     }
 }
