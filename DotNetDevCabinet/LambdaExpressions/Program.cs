@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace LambdaExpressions
@@ -25,6 +26,47 @@ namespace LambdaExpressions
             Func<int, bool> GetPairs = (number) => number % 2 == 0;
             var pairs = numbers.Where(GetPairs);
             var odds = numbers.Where((number) => number % 2 == 1);
+        }
+
+
+
+        /*
+         * Complete the 'sockMerchant' function below.
+         *
+         * The function is expected to return an INTEGER.
+         * The function accepts following parameters:
+         *  1. INTEGER n
+         *  2. INTEGER_ARRAY ar
+         */
+
+
+        public static int JumpingOnClouds(List<int> c)
+        {
+            int jumpsCount = 0;
+            int cloudsPositions = c.Count - 1;
+            int pósition = 0;
+            for (int i = 0; i <= cloudsPositions - 1; i++)
+            {
+                if (i == cloudsPositions - 1)
+                {
+                    jumpsCount++;
+                    return jumpsCount;
+                }
+                else
+                {
+                    if (c[i + 2] == 1)
+                    {
+                        pósition = pósition + 2;
+                        jumpsCount++;
+                    }
+                    else
+                    {
+                        pósition = pósition + 1;
+                        jumpsCount++;
+                    }
+                }
+            }
+            return jumpsCount;
         }
     }
 }

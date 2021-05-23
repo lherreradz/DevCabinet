@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "AsyncTestApp\Async
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{63F4EFAD-CFB2-40A8-B338-A836D3092FF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingChallenges", "ProgrammingChallenges\ProgrammingChallenges.csproj", "{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingChallenges.Tests", "ProgrammingChallenges.Tests\ProgrammingChallenges.Tests.csproj", "{67741F9C-AEA2-4F4E-95EA-F58B231D625C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{63F4EFAD-CFB2-40A8-B338-A836D3092FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F4EFAD-CFB2-40A8-B338-A836D3092FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F4EFAD-CFB2-40A8-B338-A836D3092FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
