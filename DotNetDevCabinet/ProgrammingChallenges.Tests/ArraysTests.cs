@@ -42,6 +42,34 @@ namespace ProgrammingChallenges.Tests
             //assert
             Assert.AreEqual(result, expected);
         }
+
+        [Test]
+        [TestCase("abc", "cba")]
+        public void FirstReverseTest(string str, string expected)
+        {
+            //arrange
+
+            //act
+            var result = Arrays.FirstReverse(str);
+
+            //assert
+            Assert.AreEqual(result, expected);
+        }
+
+        [Test]
+        [TestCase(new string[] { "1, 3, 4, 7, 13", "1, 2, 4, 13, 15"}, "1,4,13")]
+        public void FindIntersectionTest(string[] str, string expected)
+        {
+            //arrange
+
+            //act
+            var result = Arrays.FindIntersection(str);
+
+            //assert
+            Assert.AreEqual(result, expected);
+        }
+
         
+
     }
 }

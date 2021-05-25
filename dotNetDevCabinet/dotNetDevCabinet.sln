@@ -5,17 +5,21 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDotNet5", "dotNetDevCabinet\TestDotNet5.csproj", "{405F0EAB-761C-4561-81CD-E74D3F82D4BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDotNet5.Tests", "TestDotNet5.Tests\TestDotNet5.Tests.csproj", "{5618D0BC-1A9A-4A03-8717-818CF09B89CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDotNet5.Tests", "TestDotNet5.Tests\TestDotNet5.Tests.csproj", "{5618D0BC-1A9A-4A03-8717-818CF09B89CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDotNet5.TestsXUnit", "TestDotNet5.TestsXUnit\TestDotNet5.TestsXUnit.csproj", "{B7D04670-765B-4EF3-9D15-B9ADAAFFACD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDotNet5.TestsXUnit", "TestDotNet5.TestsXUnit\TestDotNet5.TestsXUnit.csproj", "{B7D04670-765B-4EF3-9D15-B9ADAAFFACD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async", "AsyncTestApp\Async.csproj", "{3949EC24-8895-4FF0-8071-49F8CC2A720A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async", "AsyncTestApp\Async.csproj", "{3949EC24-8895-4FF0-8071-49F8CC2A720A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{63F4EFAD-CFB2-40A8-B338-A836D3092FF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{63F4EFAD-CFB2-40A8-B338-A836D3092FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingChallenges", "ProgrammingChallenges\ProgrammingChallenges.csproj", "{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingChallenges", "ProgrammingChallenges\ProgrammingChallenges.csproj", "{7C3CAF4F-BE73-4880-92B4-EF6C16ADEDE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingChallenges.Tests", "ProgrammingChallenges.Tests\ProgrammingChallenges.Tests.csproj", "{67741F9C-AEA2-4F4E-95EA-F58B231D625C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammingChallenges.Tests", "ProgrammingChallenges.Tests\ProgrammingChallenges.Tests.csproj", "{67741F9C-AEA2-4F4E-95EA-F58B231D625C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{CE6003E0-F7BF-4FF7-9B0D-0F5D76354D46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{4C66FC16-302D-48C3-A85C-286816D47367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67741F9C-AEA2-4F4E-95EA-F58B231D625C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6003E0-F7BF-4FF7-9B0D-0F5D76354D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6003E0-F7BF-4FF7-9B0D-0F5D76354D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6003E0-F7BF-4FF7-9B0D-0F5D76354D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6003E0-F7BF-4FF7-9B0D-0F5D76354D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C66FC16-302D-48C3-A85C-286816D47367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C66FC16-302D-48C3-A85C-286816D47367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C66FC16-302D-48C3-A85C-286816D47367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C66FC16-302D-48C3-A85C-286816D47367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
