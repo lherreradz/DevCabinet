@@ -1,0 +1,23 @@
+<h1>My component</h1>
+<h3 [style.color]="age >= 23 ? 'red' : 'blue'">
+    Age: {{age}}    
+</h3>
+
+<button (click)="increaseAge()">Increase</button>
+<button (click)="decreaseAge()">Decrease</button>
+<br>
+<br>
+<div *ngIf="age < 23">
+    You're young!
+</div>
+
+<div *ngIf="age >= 23">
+    You're Adult!
+</div>
+
+<h3>Names:</h3>
+<ul>
+    <li *ngFor="let name of names; let index = index">
+        {{index + 1}} {{name}}
+    </li>
+</ul>

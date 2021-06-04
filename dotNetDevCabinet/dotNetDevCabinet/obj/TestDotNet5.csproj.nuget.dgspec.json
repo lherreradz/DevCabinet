@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj": {}
+    "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\dotNetDevCabinet\\dotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj": {
+    "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\dotNetDevCabinet\\dotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
+        "projectUniqueName": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\dotNetDevCabinet\\dotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
         "projectName": "TestDotNet5",
-        "projectPath": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
+        "projectPath": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\dotNetDevCabinet\\dotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
         "packagesPath": "C:\\Users\\alherrera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\DotNetDevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\obj\\",
+        "outputPath": "C:\\Users\\alherrera\\OneDrive - ENDAVA\\Documents\\GitHub\\dotNetDevCabinet\\dotNetDevCabinet\\dotNetDevCabinet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alherrera\\AppData\\Roaming\\NuGet\\NuGet.Config",
