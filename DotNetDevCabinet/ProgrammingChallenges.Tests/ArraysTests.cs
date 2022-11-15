@@ -3,6 +3,7 @@ using ProgrammingChallenges;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization.Formatters;
 
 namespace ProgrammingChallenges.Tests
 {
@@ -66,8 +67,79 @@ namespace ProgrammingChallenges.Tests
             var result = Arrays.FindIntersection(str);
 
             //assert
+            Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        [TestCase("4886532165321", 4)]
+        [TestCase("1241221", 4)]
+        public void lonelyinteger(string numbers, int expected)
+        {
+            //arrange
+
+            List<int> list = new List<int>();
+            foreach (var n in numbers.ToArray()) list.Add(Convert.ToInt32(n.ToString()));
+
+            //act
+            var result = Arrays.lonelyinteger(list);
+
+            //assert
             Assert.AreEqual(result, expected);
         }
+
+        [Test]
+        [TestCase("523456789", 3, 4)]
+        [TestCase("123456789", 3, 0)]
+        public void DiagonalDifference(string numberString, int size, int expected)
+        {
+            List<List<int>> list = new List<List<int>>();
+            //arrange
+            for(int i=0; i<size; i++)
+            {
+                List<int> line = new List<int>();
+                for(int j = 0; j<size; j++)
+                {
+                    line.Add(Convert.ToInt32(numberString[j+(i*3)].ToString()));
+                }
+                list.Add(line);
+            }
+
+            //act
+            var result = Arrays.DiagonalDifference(list);
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
+
+
+        [Test]
+        [TestCase(new string[3] { "abc", "bca", "dbe"}, new int[3] { 0, 2, 1 })]
+        [TestCase(new string[3] { "gr", "sd", "rg" }, new int[0])]
+        public void solutionChar(string[] S, int[] expected)
+        {
+            //arrange
+
+            //act
+            var result = Arrays.solutionChar(S);
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
+
+
+        [Test]
+        [TestCase(new int[3] {3,3,3}, 0)]
+        public void IncreaseDecrease(int[] A , int expected)
+        {
+            //arrange
+
+            //act
+            var result = Arrays.IncreaseDecrease(A);
+
+            //assert
+            Assert.AreEqual(expected, result);
+        }
+
 
         
 

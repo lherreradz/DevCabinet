@@ -8,24 +8,31 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/luisherrera/.nuget/packages/": {}
+    "C:\\Users\\lherr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/luisherrera/DevCabinet/DotNetDevCabinet/DotNetDevCabinet/TestDotNet5.csproj",
+      "projectUniqueName": "D:\\GitHub\\DevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
       "projectName": "TestDotNet5",
-      "projectPath": "/Users/luisherrera/DevCabinet/DotNetDevCabinet/DotNetDevCabinet/TestDotNet5.csproj",
-      "packagesPath": "/Users/luisherrera/.nuget/packages/",
-      "outputPath": "/Users/luisherrera/DevCabinet/DotNetDevCabinet/DotNetDevCabinet/obj/",
+      "projectPath": "D:\\GitHub\\DevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\TestDotNet5.csproj",
+      "packagesPath": "C:\\Users\\lherr\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\DevCabinet\\DotNetDevCabinet\\dotNetDevCabinet\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/luisherrera/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lherr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,7 +56,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

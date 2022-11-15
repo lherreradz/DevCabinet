@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "mocha tests/**/*Test.js --reporter spec"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.4.0"
+  },
+  "devDependencies": {
+    "request": "^2.88.2"
   }
 }

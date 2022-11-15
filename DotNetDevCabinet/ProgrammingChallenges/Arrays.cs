@@ -114,5 +114,116 @@ namespace ProgrammingChallenges
             }
             return "false";
         }
+
+        public static int lonelyinteger(List<int> a)
+        {
+            int[] arr = new int[100];
+
+            foreach (var n in a)
+            {
+                if (arr[n] == 0) arr[n] = 1;
+                else if (arr[n] == 1) arr[n] = 2;
+            }
+
+            for (int i = 0; i < 100; i++)
+            {
+                if (arr[i] == 1) return i;
+            }
+            return 0;
+        }
+        public static int DiagonalDifference(List<List<int>> arr)
+        {
+            int size = arr.Count;
+            int[,] matrix = new int[size, size];
+            int i = 0;
+            foreach (var line in arr)
+            {
+                int j = 0;
+                foreach (var n in line)
+                {
+                    matrix[i, j] = n;
+                    j++;
+                }
+                i++;
+            }
+
+            int sumA = 0;
+            int sumB = 0;
+
+            for (int k = 0; k < size; k++)
+            {
+                sumA += matrix[k, k];
+                sumB += matrix[k, size - k - 1];
+            }
+
+            int res = sumA - sumB;
+            return (res > 0) ? res : res * -1;
+        }
+
+         public static string ModuleHandle(int N)
+         {
+            StringBuilder res = new StringBuilder();
+
+            int enable_print = (N % 10 != 0) ? 1 : 0 ;
+            while (N > 0)
+            {
+                if (enable_print == 0 && N % 10 != 0)
+                {
+                    enable_print = 1;
+                }
+                if (enable_print == 1 || N < 10)
+                {
+                    Console.Write(N % 10);
+                    res.Append(N % 10);
+                }
+                N = N / 10;
+            }
+
+            return res.ToString();
+
+        }
+
+
+
+        public static int[] solutionChar(string[] S)
+        {
+            // write your code in C# 6.0 with .NET 4.5 (Mono)
+            int[] res = new int[3];
+
+            for (int i = 0; i < S[0].Length; i++)
+            {
+                for (int wordIndexA = 0; wordIndexA < S.Length; wordIndexA++)
+                {
+                    for (int wordIndexB = wordIndexA+1; wordIndexB < S.Length; wordIndexB++)
+                    {
+                        if (S[wordIndexA].ToCharArray()[i] == S[wordIndexB].ToCharArray()[i])
+                        {
+                            res = new int[3] { wordIndexA, wordIndexB, i };
+                        }
+                    }
+                }
+            }
+            if (res == new int[3]) return new int[0];
+            return res;
+
+        }
+
+        public static int IncreaseDecrease(int[] A)
+        {
+            // write your code in C# 6.0 with .NET 4.5 (Mono)
+            //Find the average value
+            int size = A.Length;
+            int sum = 0;
+            foreach (int n in A) sum += n;
+            int integerAv = sum / size;
+            float floatAv = (float)sum / size;
+            int average = (integerAv + 1 - floatAv < ((integerAv - floatAv >= 0)? integerAv - floatAv: integerAv - floatAv*-1)) ? integerAv + 1: integerAv;
+
+            //Calculate increase or decrease
+            int steps = 0;
+            foreach (int n in A) steps += ((n > average ) ? n - average : average - n);
+
+            return steps;
+        }
     }
 }
