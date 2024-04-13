@@ -141,7 +141,28 @@ namespace ProgrammingChallenges.Tests
         }
 
 
-        
+        [Test]
+        //[TestCase(new int[10] { 20, 15, 3, 4, 8, 6, 2, 0, 4, 1 }, new int[3] { 10, 3, 60 }, new int[9] { 20, 15, 4, 8, 6, 2, 0, 4, 1 })]
+        [TestCase(new int[10] { 1, 15, 500000, 3, 8, 6, 2, 0, 4, 1 }, new int[3] { 10, 3, 5500000 }, new int[9] { 1, 15, 500000, 8, 6, 2, 0, 4, 1 })]
+        public void SetDifferenceArray(int[] A, int[] B, int[] expected)
+        {
+            var startTime = DateTime.Now;
+            //arrange
+
+            //act
+            var result = Arrays.SetDifferenceArray2(A, B);
+
+            var EndTime = DateTime.Now;
+
+            //assert
+            Assert.AreEqual(expected, result);
+
+            Console.Write("tiempo: ");
+            Console.WriteLine(EndTime - startTime);
+        }
+
+
+
 
     }
 }

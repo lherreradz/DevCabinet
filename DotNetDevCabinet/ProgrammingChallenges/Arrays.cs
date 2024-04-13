@@ -225,5 +225,54 @@ namespace ProgrammingChallenges
 
             return steps;
         }
+
+        // Create a function, in C#, that:
+        // 1. Takes two integer arrays as parameters
+        // 2. Returns an array of integers from the first array argument that do not exist in the second array argument
+        // 3. Does not modify the input arrays
+
+        public static int[] SetDifferenceArray(int[] arrayA, int[] arrayB)
+        {
+            // Get the max and min values of the array B
+            int minValInB = arrayB.Min();
+            int maxValInB = arrayB.Max();
+
+            int difMinMaxInB = maxValInB - minValInB;
+
+            // valuesInB contains only the values in B set to true indexed by the value itself
+            bool[] valuesInB = new bool[difMinMaxInB+1];
+
+            List<int> resultList = new List<int>();
+
+            // Set to true values in B 
+            foreach (var n in arrayB) valuesInB[n - minValInB] = true;
+
+            foreach (var n in arrayA)
+            {
+                // check if the n value of the array A is in the range of values in B and is in B, if not then insert in result list
+                if (!(n >= minValInB && n <= maxValInB && valuesInB[n - minValInB])) resultList.Add(n);
+            }
+
+            return resultList.ToArray();
+        }
+        public static int[] SetDifferenceArray2(int[] arrayA, int[] arrayB)
+        {
+            // valuesInB contains only the values in B set to true indexed by the value itself
+            bool[] valuesInB = new bool[arrayB.Max()+1];
+
+            List<int> resultList = new List<int>();
+
+            // Set to true values in B 
+            foreach (var n in arrayB) valuesInB[n] = true;
+
+            foreach (var n in arrayA)
+            {
+                // check if the n value of the array A is in the range of values in B and is in B, if not then insert in result list
+                if (!valuesInB[n]) resultList.Add(n);
+            }
+
+            return resultList.ToArray();
+        }
+
     }
 }

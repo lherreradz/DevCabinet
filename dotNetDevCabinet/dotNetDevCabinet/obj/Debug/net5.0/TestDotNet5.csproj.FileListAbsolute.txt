@@ -52,13 +52,13 @@ D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\TestDotN
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\TestDotNet5.runtimeconfig.dev.json
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\TestDotNet5.dll
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\bin\Debug\net5.0\TestDotNet5.pdb
+D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.csproj.AssemblyReference.cache
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.AssemblyInfoInputs.cache
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.AssemblyInfo.cs
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.csproj.CoreCompileInputs.cache
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.dll
-D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\ref\TestDotNet5.dll
+D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\refint\TestDotNet5.dll
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.pdb
 D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.genruntimeconfig.cache
-D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\TestDotNet5.csproj.AssemblyReference.cache
-D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\refint\TestDotNet5.dll
+D:\GitHub\DevCabinet\DotNetDevCabinet\dotNetDevCabinet\obj\Debug\net5.0\ref\TestDotNet5.dll
